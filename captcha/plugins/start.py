@@ -24,13 +24,13 @@ async def starters(event):
                 buttons=[
                     [
                         Button.url(
-                            "➕ Add me to a group",
+                            "➕ ضفني في جروبك",
                             url="http://t.me/{}?startgroup=true".format(
                                 (await bot.get_me()).username
                             ),
                         )
                     ],
-                    [Button.url("Support", url="https://t.me/BotzHubChat")],
+                    [Button.url("الدعم", url="https://t.me/Abu_hadieda")],
                 ],
             )
             return
@@ -41,17 +41,17 @@ async def starters(event):
             buttons=[
                 [
                     Button.url(
-                        "➕ Add me to a group",
+                        "➕ ضفني في جروبك",
                         url="http://t.me/{}?startgroup=true".format(
                             (await bot.get_me()).username
                         ),
                     )
                 ],
                 [
-                    Button.inline("Help", data="help"),
-                    Button.url("Updates", url="https://t.me/BotzHub"),
+                    Button.inline("مساعده", data="help"),
+                    Button.url("تحديثات", url="https://t.me/Abo_Hadieda"),
                 ],
-                [Button.url("Repository", url="https://github.com/xditya/captchaBot")],
+                [Button.url("🖤المطور🖤", url="https://github.com/xditya/captchaBot")],
             ],
         )
 
