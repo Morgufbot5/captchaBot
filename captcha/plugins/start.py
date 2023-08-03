@@ -51,7 +51,7 @@ async def starters(event):
                     Button.inline("مساعده", data="help"),
                     Button.url("تحديثات", url="https://t.me/Abo_Hadieda"),
                 ],
-                [Button.url("🖤المطور🖤", url="https://github.com/xditya/captchaBot")],
+                [Button.url("🖤المطور🖤", url="https://t.me/Abo_Hadieda")],
             ],
         )
 
