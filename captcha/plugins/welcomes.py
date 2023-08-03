@@ -10,5 +10,5 @@ from . import bot, events
     )
 )
 async def setwel(event):
-    await event.reply("To be added soon, stay tuned - @BotzHub")
+    await event.reply("To be added soon, stay tuned - @Abu_hadieda")
     return
